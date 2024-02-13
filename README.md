@@ -1,5 +1,5 @@
 1)	Run “composer install”  command after downloading repository.
-2)	I have uploaded database file to git. . Create database with the name of “bookstore”. If you want import you can import it directly to database or you can run a command “php artisan migrate”.
+2)	I have uploaded database file to git. Create database with the name of “bookstore”. If you want import you can import it directly to database or you can run a command “php artisan migrate”.
 3)	After migration run the command “php artisan db:seed --class=BooksSeeder”. This command will insert the fake books to the bookstores table.
 
 
