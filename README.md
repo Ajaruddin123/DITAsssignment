@@ -1,3 +1,9 @@
+1)	Run “composer install”  command after downloading repository.
+2)	I have uploaded database file to git. . Create database with the name of “bookstore”. If you want import you can import it directly to database or you can run a command “php artisan migrate”.
+3)	After migration run the command “php artisan db:seed --class=BooksSeeder”. This command will insert the fake books to the bookstores table.
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
